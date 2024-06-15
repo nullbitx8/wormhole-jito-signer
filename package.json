@@ -1,0 +1,26 @@
+{
+  "name": "@nullbitx8/wormhole-jito-signer",
+  "version": "1.0.0",
+  "description": "Wormhole Signer that submits transactions as Jito bundles.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wormhole",
+    "solana",
+    "jito",
+    "signer"
+  ],
+  "author": "nullbitx8",
+  "license": "MIT",
+  "devDependencies": {
+    "@jito/jito-ts": "github:jito-labs/jito-ts#master",
+    "@solana/web3.js": "^1.92.3",
+    "@wormhole-foundation/sdk": "^0.6.8"
+  },
+  "dependencies": {
+    "@solana/codecs-strings": "^2.0.0-experimental.5e8ac8d"
+  }
+}
