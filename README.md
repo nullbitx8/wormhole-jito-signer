@@ -1,5 +1,3 @@
-create a github readme
-
 ## Description
 This is a signer for Solana, that implements the Wormhole Signer interface.
 The signer submits transactions as a jito bundle to the Solana network.
