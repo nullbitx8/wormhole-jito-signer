@@ -5,9 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm ci && npm run build",
-    "build": "echo \"dummy build script\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "wormhole",
@@ -18,11 +16,11 @@
   "author": "nullbitx8",
   "license": "MIT",
   "devDependencies": {
-    "@jito/jito-ts": "github:jito-labs/jito-ts#master",
-    "@solana/web3.js": "^1.92.3",
-    "@wormhole-foundation/sdk": "^0.6.8"
   },
   "dependencies": {
-    "@solana/codecs-strings": "^2.0.0-experimental.5e8ac8d"
+    "@jito/jito-ts": "github:jito-labs/jito-ts#master",
+    "@solana/web3.js": "^1.92.3",
+    "@solana/codecs-strings": "^2.0.0-experimental.5e8ac8d",
+    "@wormhole-foundation/sdk": "^0.6.8"
   }
 }
