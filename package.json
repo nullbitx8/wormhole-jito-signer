@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "echo 'installing dev dependencies'"
+    "prepare": "echo 'installing dev dependencies' && npm install"
   },
   "keywords": [
     "wormhole",
