@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "@jito/jito-ts": "github:jito-labs/jito-ts#master",
-    "@solana/web3.js": "^1.92.3",
+    "@solana/web3.js": "^1.91.7",
     "@solana/codecs-strings": "^2.0.0-experimental.5e8ac8d",
-    "@wormhole-foundation/sdk": "^0.6.8"
+    "@wormhole-foundation/sdk": "^0.7.0"
   }
 }
